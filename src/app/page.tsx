@@ -227,12 +227,12 @@ export default function HomePage() {
             >
                 <div className="max-w-2xl">
                     <h2 className="font-mono text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                        Tell Me About Your Mission
+                        Tell Us About Your Mission
                     </h2>
                     <p className="text-lg text-muted-foreground mb-8">
-                        If it&rsquo;s the kind of high-stakes problem I&rsquo;m
-                        built for, I&rsquo;ll schedule a discovery call. If
-                        not, I&rsquo;ll tell you that too.
+                        If it&rsquo;s the kind of high-stakes problem we&rsquo;re
+                        built for, we&rsquo;ll schedule a discovery call. If
+                        not, we&rsquo;ll tell you that too.
                     </p>
                     <Button asChild size="lg">
                         <a href={`mailto:${CONTACT_EMAIL}`}>
