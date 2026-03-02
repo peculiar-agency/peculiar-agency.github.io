@@ -1,5 +1,5 @@
 export const SITE_URL = "https://peculiar.agency";
 export const SITE_NAME = "Peculiar Agency";
 export const SITE_DESCRIPTION =
-  "We design, build, and operate high-stakes software for exec-backed special missions and scale-ups.";
+  "One team designs, builds, and operates high-stakes software — AI-augmented, human-verified, outcome-driven.";
 export const CONTACT_EMAIL = "hello@peculiar.agency";
