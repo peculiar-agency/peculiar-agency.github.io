@@ -44,12 +44,12 @@ export default function HomePage() {
                         call Peculiar.
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-4">
-                        We design, build, and operate high-stakes software for
-                        exec-backed special missions and scale-ups &mdash; so bold
-                        bets deliver impact, not drama.
+                        Board-visible launches. AI-accelerated codebases nobody
+                        trusts in production. One team designs, builds, and
+                        operates it &mdash; so the bet lands, not explodes.
                     </p>
                     <p className="text-base text-muted-foreground/80 max-w-2xl mb-8">
-                        One pod runs what it ships. Buy outcomes, not hours. Move
+                        One team runs what it ships. Buy outcomes, not hours. Move
                         a metric every week.
                     </p>
                     <Button asChild size="lg">
@@ -64,6 +64,64 @@ export default function HomePage() {
             {/* Divider */}
             <div className="border-t" />
 
+            {/* The Problem */}
+            <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+                <div className="max-w-3xl mb-12">
+                    <h2 className="font-mono text-3xl md:text-4xl font-bold tracking-tight mb-4">
+                        Sound Familiar?
+                    </h2>
+                </div>
+                <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
+                    <div className="space-y-2">
+                        <h3 className="font-mono text-lg font-semibold">
+                            AI Velocity, Production Fragility
+                        </h3>
+                        <p className="text-muted-foreground">
+                            Your team ships faster with AI-generated code, but
+                            72% of organizations report production incidents
+                            traced back to it. Speed without reliability is
+                            technical debt on a deadline.
+                        </p>
+                    </div>
+                    <div className="space-y-2">
+                        <h3 className="font-mono text-lg font-semibold">
+                            Vendor Fragmentation
+                        </h3>
+                        <p className="text-muted-foreground">
+                            Different agency for design, different contractors
+                            for build, nobody for operations. You became the
+                            integration layer &mdash; and the single point of
+                            failure.
+                        </p>
+                    </div>
+                    <div className="space-y-2">
+                        <h3 className="font-mono text-lg font-semibold">
+                            Board Pressure, Engineering Reality
+                        </h3>
+                        <p className="text-muted-foreground">
+                            The board approved budget and expects results by Q3.
+                            &ldquo;AI makes everything cheaper&rdquo;
+                            doesn&rsquo;t match the engineering reality of
+                            production-grade systems.
+                        </p>
+                    </div>
+                    <div className="space-y-2">
+                        <h3 className="font-mono text-lg font-semibold">
+                            Build Teams That Walk Away
+                        </h3>
+                        <p className="text-muted-foreground">
+                            The agency delivered and left. The contractors moved
+                            on. Your internal team inherited a system nobody
+                            fully understands &mdash; and it&rsquo;s now in
+                            production.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* Divider */}
+            <div className="border-t" />
+
             {/* D-B-O */}
             <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
                 <div className="max-w-3xl mb-12">
@@ -71,8 +129,9 @@ export default function HomePage() {
                         Design-Build-Operate (D-B-O)
                     </h2>
                     <p className="text-lg text-muted-foreground">
-                        One pod from discovery through production. No handoff, no
-                        seams, no &ldquo;that&rsquo;s not my job.&rdquo;
+                        One team takes your platform from ambiguous prototype to
+                        production-grade system &mdash; and stays until impact is
+                        proven.
                     </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
@@ -84,9 +143,9 @@ export default function HomePage() {
                             <h3 className="font-mono text-xl font-semibold">Design</h3>
                         </div>
                         <p className="text-muted-foreground pl-11">
-                            Map the problem space, validate assumptions with
-                            evidence, and architect systems that survive contact
-                            with production.
+                            Validate assumptions with evidence, architect for
+                            production constraints, and deliver a clear decision
+                            within weeks &mdash; not months.
                         </p>
                     </div>
                     <div className="space-y-3">
@@ -97,9 +156,9 @@ export default function HomePage() {
                             <h3 className="font-mono text-xl font-semibold">Build</h3>
                         </div>
                         <p className="text-muted-foreground pl-11">
-                            Senior engineers ship production code weekly. Small
-                            pod, tight feedback loops, measurable progress
-                            against the metric that matters.
+                            AI-augmented, human-verified. Every PR reviewed by
+                            engineers who understand your business constraints.
+                            Measurable progress weekly.
                         </p>
                     </div>
                     <div className="space-y-3">
@@ -110,9 +169,9 @@ export default function HomePage() {
                             <h3 className="font-mono text-xl font-semibold">Operate</h3>
                         </div>
                         <p className="text-muted-foreground pl-11">
-                            The pod that builds it runs it. SLOs, monitoring,
-                            incident response &mdash; we stay until impact is
-                            proven.
+                            When AI-generated code surfaces a production issue at
+                            2am, the people who wrote it are the ones fixing it.
+                            SLOs, monitoring, incident response &mdash; included.
                         </p>
                     </div>
                 </div>
@@ -125,11 +184,13 @@ export default function HomePage() {
             <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
                 <div className="max-w-3xl">
                     <h2 className="font-mono text-3xl md:text-4xl font-bold tracking-tight mb-4">
-                        Start With a Discovery Sprint
+                        Prove It in 2&ndash;4 Weeks
                     </h2>
                     <p className="text-lg text-muted-foreground mb-8">
-                        A bounded 2&ndash;4 week experiment before the full
-                        commitment. One pod, real code, evidence-based go/no-go.
+                        You&rsquo;ve committed six figures to a vendor before and
+                        gotten a slide deck. Our discovery sprint delivers
+                        running code and an honest recommendation &mdash; before
+                        the full engagement.
                     </p>
                     <div className="grid sm:grid-cols-3 gap-6 text-sm">
                         <div className="space-y-1">
@@ -138,7 +199,7 @@ export default function HomePage() {
                             </p>
                             <p className="text-muted-foreground">
                                 Running code in a production-like environment,
-                                not a slide deck.
+                                not a prototype in a sandbox.
                             </p>
                         </div>
                         <div className="space-y-1">
@@ -155,8 +216,8 @@ export default function HomePage() {
                                 Honest recommendation
                             </p>
                             <p className="text-muted-foreground">
-                                Commit, pivot, or walk away. Early no-go is
-                                still impact.
+                                Commit, pivot, or walk away. We&rsquo;ll tell
+                                you to stop if stopping is the right call.
                             </p>
                         </div>
                     </div>
@@ -172,16 +233,22 @@ export default function HomePage() {
                     <h2 className="font-mono text-3xl md:text-4xl font-bold tracking-tight mb-4">
                         Why Peculiar
                     </h2>
+                    <p className="text-lg text-muted-foreground">
+                        You&rsquo;ve worked with agencies before. Senior team on
+                        the pitch, junior team on the work. We do it
+                        differently.
+                    </p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
                     <div className="space-y-2">
                         <h3 className="font-mono text-lg font-semibold">
-                            Senior-Only Pods
+                            AI-Augmented, Human-Verified
                         </h3>
                         <p className="text-muted-foreground">
-                            Pods of 2&ndash;5, every member senior. No bench, no
-                            juniors learning on your dime. First production value
-                            in ~2 weeks.
+                            Pods of 2&ndash;5 experienced engineers. AI handles
+                            the toil, humans handle the judgment. No juniors
+                            learning on your dime, no unreviewed AI output in
+                            your production.
                         </p>
                     </div>
                     <div className="space-y-2">
@@ -190,8 +257,9 @@ export default function HomePage() {
                         </h3>
                         <p className="text-muted-foreground">
                             Payments, identity, billing, marketplaces, data
-                            pipelines &mdash; transaction-critical platforms are
-                            our domain. The scary stuff.
+                            pipelines. A production failure in these systems
+                            isn&rsquo;t a bug ticket &mdash; it&rsquo;s a board
+                            conversation. We know the difference.
                         </p>
                     </div>
                     <div className="space-y-2">
@@ -199,9 +267,9 @@ export default function HomePage() {
                             Run What You Ship
                         </h3>
                         <p className="text-muted-foreground">
-                            No handoff to a different pod. The people who
-                            designed and built the system operate it, monitor it,
-                            and fix it at 2am.
+                            No handoff to a different ops team. The people who
+                            understand the system are the ones responding to
+                            incidents &mdash; including the AI-generated parts.
                         </p>
                     </div>
                     <div className="space-y-2">
@@ -209,9 +277,9 @@ export default function HomePage() {
                             Outcomes, Not Hours
                         </h3>
                         <p className="text-muted-foreground">
-                            Premium retainers anchored to impact milestones.
-                            Weekly demos showing a metric moved. If it does not
-                            deliver value, we stop.
+                            You&rsquo;re buying production outcomes, not typing
+                            speed. Premium retainers anchored to impact
+                            milestones. Weekly demos showing a metric moved.
                         </p>
                     </div>
                 </div>
@@ -230,16 +298,29 @@ export default function HomePage() {
                         Tell Us About Your Mission
                     </h2>
                     <p className="text-lg text-muted-foreground mb-8">
-                        If it&rsquo;s the kind of high-stakes problem we&rsquo;re
+                        We take on a handful of engagements at a time. If
+                        it&rsquo;s the kind of high-stakes problem we&rsquo;re
                         built for, we&rsquo;ll schedule a discovery call. If
-                        not, we&rsquo;ll tell you that too.
+                        not, we&rsquo;ll tell you that too. No sales process.
+                        An engineer answers.
                     </p>
-                    <Button asChild size="lg">
-                        <a href={`mailto:${CONTACT_EMAIL}`}>
-                            {CONTACT_EMAIL}
-                            <ArrowRight className="ml-2 h-4 w-4" />
-                        </a>
-                    </Button>
+                    <div className="flex flex-wrap items-center gap-4">
+                        <Button asChild size="lg">
+                            <a href={`mailto:${CONTACT_EMAIL}`}>
+                                {CONTACT_EMAIL}
+                                <ArrowRight className="ml-2 h-4 w-4" />
+                            </a>
+                        </Button>
+                        <Button asChild variant="outline" size="lg">
+                            <a
+                                href="https://www.linkedin.com/company/peculiar-agency"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                LinkedIn
+                            </a>
+                        </Button>
+                    </div>
                 </div>
             </section>
         </>
